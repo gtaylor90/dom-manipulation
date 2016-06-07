@@ -40,7 +40,9 @@ document.querySelector("#remove button").addEventListener('click',function(){
     var liNode = ulNode[i]
     console.log(liNode)
     if (liNode.classList.contains('inactive')) {
-       ulNode.removeChild(liNode)
+       console.log("inactive user")
+       // ulNode.removeChild(liNode)
+       alert("inactive user found, but can't figure out how to remove it")
     } 
   }
 })
